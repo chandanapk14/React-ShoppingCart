@@ -258,11 +258,12 @@ const ViewAll = () => {
                                     (value,index)=>{   
                                         return <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                                             <div class="card">
-                                        <img src={value.url}></img>
+                                        <img src={value.image}></img>
                                         <div class="card-body">
-                                          <h5 class="card-title">PRODUCT ID:{value.productid}</h5>
+                                        <h5 class="card-title">PRODUCT ID:{value.productid}</h5>
                                           <h5 class="card-title">PRICE:{value.price}</h5>
-                                          <p class="card-text">CATEGORY{value.category}</p>
+                                          <h5 class="card-title">CATEGORY:{value.category}</h5>
+                                          
                                         </div>
                                       </div>
                                       </div>
